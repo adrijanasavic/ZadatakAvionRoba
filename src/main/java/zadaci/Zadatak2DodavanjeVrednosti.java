@@ -7,6 +7,7 @@ import com.j256.ormlite.table.TableUtils;
 import model.Avion;
 import model.Roba;
 
+
 public class Zadatak2DodavanjeVrednosti {
     static Dao<Avion,Integer> avionDao;
     static Dao<Roba,Integer> robaDao;
@@ -31,10 +32,19 @@ public class Zadatak2DodavanjeVrednosti {
 
 
             Roba roba1 = new Roba("Patike","Duboke patike", 1,avion1 );
+            robaDao.create(roba1);
             Roba roba2 = new Roba("Kosulja","Na duge rukave", 0,avion1 );
+            robaDao.create(roba2);
             Roba roba3 = new Roba("Voda","Voda za pice", 1.4,avion1 );
+            robaDao.create(roba3);
             Roba roba4 = new Roba("Ploce","Drvene ploce", 3.4,avion2 );
+            robaDao.create(roba4);
             Roba roba5 = new Roba("Stolica","Plasticna stolica", 2.4,avion2 );
+            robaDao.create(roba5);
+
+
+
+
 
 
 
