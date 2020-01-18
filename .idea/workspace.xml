@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a610f051-157f-4f79-a235-c117c0bcc54d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Avion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Roba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadaci/Konstante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadaci/Zadatak1KreiranjeTabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadaci/Zadatak2DodavanjeVrednosti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadaci/Zadatak3IzmenaVrednosti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadaci/Zadatak4BrisanjeVrednosti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +22,13 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -23,6 +36,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Termin4Resenje" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
