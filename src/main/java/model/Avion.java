@@ -1,10 +1,15 @@
 package model;
 
+import com.j256.ormlite.dao.ForeignCollection;
 import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.field.ForeignCollectionField;
 import com.j256.ormlite.table.DatabaseTable;
 
 @DatabaseTable(tableName = "Avion")
 public class Avion {
+
+    public static final String POLJE_OZNAKA = "oznaka";
+    public static final String POLJE_RASPON_KRILA = "raspon_krila";
 
     @DatabaseField(generatedId = true)
     private int id;
@@ -12,10 +17,11 @@ public class Avion {
     private String oznaka;
     @DatabaseField(columnName = POLJE_RASPON_KRILA, canBeNull = false)
     private int rasponKrila;
+    @ForeignCollectionField(foreignFieldName = "avion")
+    private ForeignCollection<Roba> roba;
 
 
-    public static final String POLJE_OZNAKA = "oznaka";
-    public static final String POLJE_RASPON_KRILA = "raspon_krila";
+
 
     public Avion() {
 
