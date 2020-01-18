@@ -4,7 +4,6 @@
     <list default="true" id="a610f051-157f-4f79-a235-c117c0bcc54d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/model/Avion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/model/Roba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadaci/Konstante.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/zadaci/Zadatak1KreiranjeTabela.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/zadaci/Zadatak2DodavanjeVrednosti.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/zadaci/Zadatak3IzmenaVrednosti.java" afterDir="false" />
@@ -36,7 +35,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Termin4Resenje" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
