@@ -2,6 +2,7 @@ package zadaci;
 
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.dao.DaoManager;
+import com.j256.ormlite.jdbc.JdbcConnectionSource;
 import com.j256.ormlite.support.ConnectionSource;
 import model.Avion;
 import model.Roba;
@@ -15,9 +16,8 @@ public class Zadatak4BrisanjeVrednosti {
         Dao<Roba, Integer> robaDao = null;
 
 
-        ConnectionSource connectionSource = null;
         try {
-
+            ConnectionSource connectionSource = new JdbcConnectionSource("jdbc:sqlite:avionRoba.db");
             robaDao = DaoManager.createDao(connectionSource, Roba.class);
 
 

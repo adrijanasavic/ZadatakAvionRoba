@@ -21,6 +21,8 @@ public class Roba {
     @DatabaseField(foreign =  true, foreignAutoRefresh = true )
     private Avion avion;
 
+    public Roba() {
+    }
 
     public Roba(String naziv, String opis, double tezina, Avion avion) {
         this.naziv = naziv;

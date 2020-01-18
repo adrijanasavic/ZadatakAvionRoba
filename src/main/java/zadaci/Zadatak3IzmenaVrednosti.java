@@ -2,6 +2,7 @@ package zadaci;
 
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.dao.DaoManager;
+import com.j256.ormlite.jdbc.JdbcConnectionSource;
 import com.j256.ormlite.support.ConnectionSource;
 import model.Avion;
 import model.Roba;
@@ -14,9 +15,8 @@ public class Zadatak3IzmenaVrednosti {
          Dao<Roba, Integer> robaDao;
 
 
-            ConnectionSource connectionSource = null;
             try {
-                avionDao = DaoManager.createDao(connectionSource, Avion.class);
+                ConnectionSource connectionSource = new JdbcConnectionSource("jdbc:sqlite:avionRoba.db");
                 robaDao = DaoManager.createDao(connectionSource, Roba.class);
 
 
@@ -24,7 +24,7 @@ public class Zadatak3IzmenaVrednosti {
                List <Roba> robaZaIzmenu = robaDao.queryForEq(Roba.POLJE_OPIS, "Plasticna stolica");
                 for (Roba roba:robaZaIzmenu) {
                     roba.setOpis("Drvena stolica");
-                   robaDao.update((Roba) robaZaIzmenu);
+                   robaDao.update((Roba) roba);
 
                 }
                 List<Roba> list = robaDao.queryForAll();
