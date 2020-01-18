@@ -7,6 +7,8 @@ import com.j256.ormlite.table.TableUtils;
 import model.Avion;
 import model.Roba;
 
+import java.util.List;
+
 
 public class Zadatak2DodavanjeVrednosti {
     static Dao<Avion,Integer> avionDao;
@@ -42,7 +44,9 @@ public class Zadatak2DodavanjeVrednosti {
             Roba roba5 = new Roba("Stolica","Plasticna stolica", 2.4,avion2 );
             robaDao.create(roba5);
 
-
+            List<Roba> list = robaDao.queryForAll();
+            for (Roba roba:list)
+                System.out.println(roba);
 
 
 
